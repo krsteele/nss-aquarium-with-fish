@@ -1,4 +1,4 @@
-import {useFish} from "./FishDataProvider"
+import {useFish} from "./FishDataProvider.js"
 
 const allTheFish = useFish()
 

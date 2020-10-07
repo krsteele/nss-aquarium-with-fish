@@ -35,3 +35,8 @@ const fishCollection = [
         food: "invertebrates, algae, drum licks and vacuum cleaners"
     },
 ]
+
+export const useFish = () => {
+    return fishCollection.slice()
+}
+
