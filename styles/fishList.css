@@ -1,0 +1,9 @@
+.fishContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish {
+    border: 1px dotted orange;
+    flex-basis: 25%;
+}

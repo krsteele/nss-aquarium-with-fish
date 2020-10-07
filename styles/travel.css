@@ -1,0 +1,9 @@
+.locationContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location {
+    flex-basis: 25%;
+    border: 1px dotted green;
+}

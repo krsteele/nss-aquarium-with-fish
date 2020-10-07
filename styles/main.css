@@ -1,0 +1,24 @@
+@import "./fishList.css";
+@import "./travel.css";
+
+
+
+img {
+    width: 250px;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+.contentContainer__left {
+    flex: 3;
+}
+
+.contentContainer__right {
+    flex: 1;
+}
+
+section, aside, article {
+    border: 1px dotted pink;
+}
