@@ -7,7 +7,8 @@ import { useTip } from "./tips/TipDataProvider.js"
 import { TipList } from "./tips/TipList.js"
 
 // imports necessary location items
-import { useLocations } from "./locations/LocationDataProvider"
+import { useLocations } from "./locations/LocationDataProvider.js"
+import { LocationList } from "./locations/LocationList.js"
 
 // calls the useFish array and stores the return value
 // const allTheFish = useFish()
@@ -24,6 +25,7 @@ import { useLocations } from "./locations/LocationDataProvider"
 
 // test location data provider
 const allTheLocations = useLocations()
+
 for (const location of allTheLocations) {
     console.log(location)
 }
@@ -33,3 +35,6 @@ FishList()
 
 // TipList function to render html for tips
 TipList()
+
+// LocationList function to render html for tips
+LocationList()
