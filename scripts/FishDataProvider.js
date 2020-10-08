@@ -4,11 +4,11 @@
 const fishCollection = [
     {
         name: "Trey",
-        image: "https://m.economictimes.com/thumb/msid-72258617,width-1200,height-900,resizemode-4,imgsize-797254/nemo-clownfish_istock.jpg",
+        image: "https://cdn.pixabay.com/photo/2015/09/26/19/36/fish-959636_960_720.jpg",
         species: "Clownfish",
         length: 4.3,
         location: "Indian Ocean, Red Sea, western Pacific",
-        food: "algae, zooplankton, guitar riffs"
+        food: "algae, zooplankton, guitar riffs, morsels you happen to drop"
     },
     {
         name: "Mike",
@@ -20,11 +20,11 @@ const fishCollection = [
     },
     {
         name: "Page",
-        image: "https://www.petmd.com/sites/default/files/facts-about-angelfish_0.jpg",
+        image: "https://cdn.pixabay.com/photo/2013/11/26/20/45/arabian-angelfish-218989_960_720.jpg",
         species: "Angelfish",
         length: 6,
         location: "Atlantic Ocean, Indian Ocean, western Pacific",
-        food: "tropical flakes, color flakes, white keys, black keys"
+        food: "tropical flakes, color flakes, white keys, black keys, coffee that somehow leaks out of your cup"
     },
     {
         name: "Fishman",
