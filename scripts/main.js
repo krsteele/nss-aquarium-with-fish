@@ -14,10 +14,10 @@ import { TipList } from "./tips/TipList.js"
 // }
 
 // test tips data provider
-const allTheTips = useTip()
-for (const tip of allTheTips) {
-    console.log(tip)
-}
+// const allTheTips = useTip()
+// for (const tip of allTheTips) {
+//     console.log(tip)
+// }
 
 // import FishList function so the fish will be rendered immediately when the page loads
 FishList()
