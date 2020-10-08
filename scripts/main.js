@@ -9,4 +9,5 @@ const allTheFish = useFish()
 //     console.log(fish)
 // }
 
+// import FishList function so the fish will be rendered immediately when the page loads
 FishList()
