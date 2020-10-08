@@ -1,5 +1,5 @@
 // renders indiv fish obj as HTML
-export const Fish = (fish) => {
+export const Fish = (fishObj) => {
     return `
         <section class="fish card">
             <div><img class="fish__image image--card" src=${fish.image}" /></div>
