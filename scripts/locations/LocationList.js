@@ -21,9 +21,9 @@ export const LocationList = () => {
 
     // Add to the existing HTML in the content element defined above with the document.querySelector
     contentElement.innerHTML += `
-        <section class="locationContainer">
+        <section class="locationList">
             <h3>Where in the World are All the Fishes?</h3>
-            <div class="location">${locationHTMLRepresentations}</div>
+            <div class="locationContainer">${locationHTMLRepresentations}</div>
         </section>
     `
 }

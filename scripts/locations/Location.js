@@ -1,10 +1,10 @@
-// renders indiv tip obj as HTML
+// renders indiv location obj as HTML
 export const Location = (locObj) => {
     return `
-        <section class="location">
-            <div class="location__image">${locObj.image}</div>
+        <div class="location">
+            <div><img class="location__image" src="${locObj.image}" alt=""></div>
             <div class="location__name">${locObj.name}</div>
             <div class="location__about">${locObj.about}</div>
-        </section>
+        </div>
     `
 }

@@ -24,11 +24,11 @@ import { LocationList } from "./locations/LocationList.js"
 // }
 
 // test location data provider
-const allTheLocations = useLocations()
+// const allTheLocations = useLocations()
 
-for (const location of allTheLocations) {
-    console.log(location)
-}
+// for (const location of allTheLocations) {
+//     console.log(location)
+// }
 
 // import FishList function so the fish will be rendered immediately when the page loads
 FishList()
