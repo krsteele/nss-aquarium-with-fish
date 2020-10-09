@@ -1,5 +1,5 @@
 // imports necessary fish files
-import { useFish } from "./fish/FishDataProvider.js"
+import { mostHolyFish, useFish } from "./fish/FishDataProvider.js"
 import { FishList } from "./fish/FishList.js"
 
 //imports necessary tips files
@@ -38,3 +38,5 @@ TipList()
 
 // LocationList function to render html for tips
 LocationList()
+
+mostHolyFish()
