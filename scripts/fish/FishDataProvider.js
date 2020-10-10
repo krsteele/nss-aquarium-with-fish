@@ -99,7 +99,7 @@ export const mostHolyFish = () => {
     
     // for each object in this array
     for (const fish of fishCollection) {
-        console.log(fish)
+        // console.log(fish)
         // if the remainder of the value of the length property divided by three is equal to 0 
         if (fish.length % 3 === 0) {
             // then push that fish object into the holyFish array
@@ -107,12 +107,21 @@ export const mostHolyFish = () => {
         }
     }
     // return the full holyFish array 
-    console.log(holyFish)
+    // console.log(holyFish)
     return holyFish
 }
 
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
+    // create empty array to hold sorted fish
+    const soldiers = []
+
+    for (const fish of fishCollection) {
+        if (fish.length % 5 ===0 && fish.length % 5 !== 3) {
+            soldiers.push(fish)
+        }
+    }
+    console.log(soldiers)
     return soldiers
 }
 
