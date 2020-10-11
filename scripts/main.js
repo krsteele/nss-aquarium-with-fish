@@ -1,5 +1,5 @@
 // imports necessary fish files
-import { mostHolyFish, soldierFish, useFish } from "./fish/FishDataProvider.js"
+import { mostHolyFish, nonHolyFish, soldierFish, useFish } from "./fish/FishDataProvider.js"
 import { FishList } from "./fish/FishList.js"
 
 //imports necessary tips files
@@ -40,4 +40,4 @@ TipList()
 LocationList()
 
 // mostHolyFish()
-soldierFish()
+nonHolyFish()

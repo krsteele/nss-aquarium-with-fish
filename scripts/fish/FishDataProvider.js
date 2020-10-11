@@ -90,7 +90,7 @@ export const useFish = () => {
     return fishCollection.slice()
 }
 
-// Sorting fish by size exercise
+// Sorting fish by size exercise-----------------------------------------
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
@@ -117,15 +117,22 @@ export const soldierFish = () => {
     const soldiers = []
 
     for (const fish of fishCollection) {
-        if (fish.length % 5 ===0 && fish.length % 5 !== 3) {
+        if (fish.length % 5 === 0 && fish.length % 5 !== 3) {
             soldiers.push(fish)
         }
     }
-    console.log(soldiers)
+    // console.log(soldiers)
     return soldiers
 }
 
 export const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
+    const regularFish = []
+
+    for (const fish of fishCollection) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0)
+            regularFish.push(fish)
+    }
+    console.log(regularFish)
     return regularFish
-}
+    }
